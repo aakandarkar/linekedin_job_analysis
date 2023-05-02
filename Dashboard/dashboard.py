@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 from dash import dcc #Dash Core component
 from dash import html
 
-data_dir = "/Users/akashkandarkar/Desktop/LInkedInScraping/code/Data/"
+data_dir = {Enter directory path here}
 
 # Read in the data
 df = pd.read_csv(data_dir+'all_data.csv')
